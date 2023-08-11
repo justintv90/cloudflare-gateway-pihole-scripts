@@ -8,10 +8,13 @@ urls=(
   https://raw.githubusercontent.com/mullvad/dns-blocklists/main/output/doh/doh_adblock.txt
   https://raw.githubusercontent.com/mullvad/dns-blocklists/main/output/doh/doh_gambling.txt
   https://raw.githubusercontent.com/mullvad/dns-blocklists/main/output/doh/doh_privacy.txt
-  https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
-  https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
+  #https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+  #https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
   https://adaway.org/hosts.txt
-  https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  #https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain-VN.txt
+  https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/adult/hosts-VN
+  https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.plus.txt
 )
 
 # loop through the urls and download each file with curl
